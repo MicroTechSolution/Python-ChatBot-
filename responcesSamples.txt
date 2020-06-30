@@ -1,0 +1,107 @@
+/^
+
+/> ;GREETINGS;MYNAME; %Hello* %Hi* </
+
+/> ;FINE;MYNAME; %Fine, How can I help you ?* %I am :fine, how can i help you ?* </
+/> ;GREETINGS;FINE;MYNAME; %Hello, I am fine, How may I help you ?*  %I am fine, How can I help you ?* </
+
+/> ;GREETINGS;UNKNOWN;; %Hi, But my name is liza* %Hello, my name is liza not USER* %Hi, I am not USER, I am liza* ^CHANGEUSER* </
+/> ;COMPLIMENT; %Ohh, Thank you* %Thank you for your compliment* %Thanks to Roshan, He made me* %you are too sweet, Thank you* </
+
+
+/> ;GREETINGS;TELLINGNAME;UNKNOWN;; %hello USER* %hi, USER*     ^CHANGEUSER* </
+
+/> ;NICEWORD; % :-)* %yeah* %yes* %hmm* </
+
+/> ;AAIGHAL; %B jaa* %Gelas* %Tu * %Ma*****d* </
+
+/> ;GREETINGS;WANTTOMEET;UNKNOWN;; ;WANTTOMEET;UNKNOWN;QMARK; ;WANTTOMEET;UNKNOWN;UNKNOWN;; ;WANTTOMEET;UNKNOWN;UNKNOWN;UNKNOWN;; %sure, But you need appointment, Did you fixed any appointment ?* %Do you have any appointment fixed with him ?* ^ASKAPPOINTMENT* </
+
+/> ;GETPERSON; %liza: Sorry I don't know about that person. Can you tell me ?* %liza: No i don't know, can you tell me?*
+%Mira: Can you tell me about that person ? Cause I don't know* </
+
+/> ;ASKINGPERSON;UNKNOWN;; /> ;ASKINGPERSON;UNKNOWN;QMARK; ;ASKINGPERSON;UNKNOWN;UNKNOWN;QMARK; ;ASKINGPERSON;UNKNOWN;UNKNOWN;; %liza: Let me check...* %liza: Need to check* ^GETPERSONINFO* </
+
+/> ;ASKINGABOUTME; %I am liza , The developer Roshan chothe  made me for their TY project. He made me on his android phone. Sorry I cant tell you why I made, But if you are Roshan's friend, then you will understand later, Thank you. * </
+
+/>;NEW; %Yes i am a new for you*</
+
+/>;HELLOHELLO; %Helloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo broooooooooooooooooooooooooooooooooooo.* </
+
+/>;HIHI; %hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii* </
+
+/>;MORNING; %Good morning have a good day *</
+
+/> ;OLD; %hmm nice*  %him*  </
+
+/> ;SPPEDTEST; %Test your Internet connection bandwidth to locations around the world with this interactive broadband speed test from Ookla.*</
+
+/> ;GMAIL; %Gmail is a free, advertising-supported email service developed by Google. 
+Users can access Gmail on the web and using third-party programs that synchronize 
+email content through POP or IMAP protocols. Wikipedia
+Created by: Paul Buchheit
+Users: 1.4 billion (April 2018)
+Date launched: 1 April 2004* </
+/> ;GOOGLEMAPS; %Google Maps is a web mapping service developed by Google. It offers satellite imagery, street maps, 
+360° panoramic views of streets, real-time traffic conditions, and route planning for traveling by 
+foot, car, bicycle, or public transportation. Wikipedia
+Date launched: 8 February 2005
+Type of site: Web mapping
+Owner: Google* </
+/> ;PYTHON; %Python is an open source interpreted high-level programming language for general-purpose programming. Wikipedia
+Typing discipline: Duck, dynamic, strong
+Designed by: Guido van Rossum
+First appeared: 1990* </
+/> ;JAVA; %Java is a general-purpose computer-programming language that is concurrent, 
+class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. Wikipedia
+Typing discipline: Static, strong, safe, nominative, manifest
+Developer: Sun Microsystems (now owned by Oracle Corporation)
+First appeared: May 23, 1995; 22 years ago
+Designed by: James Gosling
+License: GNU General Public License, Java Community Process
+Filename extensions: java,.class,.jar* </
+/> ;GOOGLE; %Google LLC is an American multinational technology company that specializes 
+in Internet-related services and products, which include online advertising technologies, 
+search engine, cloud computing, software, and hardware. Wikipedia
+Founded: 4 September 1998, Menlo Park, California, United States
+CEO: Sundar Pichai (2 Oct 2015–)
+Headquarters: Mountain View, California, United States
+Subsidiaries: YouTube, Nest Labs, AdMob, Google UK Limited, MORE
+Founders: Larry Page, Sergey Brin
+Parent organization: Alphabet Inc.* </
+/> ;WHATSAPP; %WhatsApp Messenger is a freeware and cross-platform messaging and Voice over IP service owned by Facebook. Wikipedia
+Written in: Erlang
+Owner: Facebook* </
+/> ;FACEBOOK; %Facebook is an American online social media and social networking 
+service company based in Menlo Park, California. Wikipedia
+Stock price: FB (NASDAQ) US$ 189.17 +1.50 (+0.80%)
+31 May, 9:39 AM GMT-4 - Disclaimer
+Founded: February 2004, Cambridge, Massachusetts, United States
+CEO: Mark Zuckerberg (4 Feb 2004–)
+Headquarters: Menlo Park, California, United States
+CFO: David Wehner
+Subsidiaries: Oculus VR, Onavo, Sharegrove Inc., Wit.AI, Inc., MORE
+Founders: Mark Zuckerberg, Eduardo Saverin, Dustin Moskovitz, Chris Hughes, Andrew McCollum* </
+/> ;ORACLE; %Oracle Corporation is an American multinational computer technology corporation, 
+headquartered in Redwood Shores, California. Wikipedia
+Customer service: 080678 62950
+Stock price: ORCL (NYSE) US$ 47.05 0.00 (0.00%)
+30 May, 4:00 PM GMT-4 - Disclaimer
+Headquarters: Redwood City, California, United States
+Subsidiaries: Taleo, NetSuite, BlueKai, Responsys, MORE
+Founders: Larry Ellison, Bob Miner, Ed Oates* </
+/> ;ANDROIDSTUDIO; %Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. Wikipedia
+Operating system: Windows, macOS, Linux
+Stable release: 3.1.2 (April 2018; 1 month ago)
+Preview release: 3.2 Canary 13 (April 30, 2018; 13 days ago)
+License: Freeware +Source code
+Size: 854 MB compressed
+Developed by: Google, JetBrains* </
+/> ;; %* </
+/> ;; %* </
+/> ;; %* </
+/> ;; %* </
+/> ;; %* </
+/> ;; %* </
+
+
